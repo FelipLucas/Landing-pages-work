@@ -1,0 +1,211 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    max-height: 3.0rem;
+    margin: auto;
+    padding: 3.0rem;
+    background-color: #031d29;
+}
+
+a#aimg{
+    padding-right: 1rem;
+}
+
+section#header > a> img{
+    margin-left: -15%;
+    height: 3.8rem;
+}
+
+div#cab{
+    padding-right: 15rem;
+}
+
+div#cab a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+div#cab >a.home{
+    padding-right: 2rem;
+    color: #a97a34;
+}
+
+div#cab >a.home2{
+    padding-right: 2rem;
+}
+
+section.main{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    max-width: 100%;
+    height: 70%;
+    padding-bottom: 25%;
+    background-image: url(images/front-view-young-male-sitting-with-broken-foot-holding-x-ray-it-grey-floor-twist-pain-leg-broken-male-accident-foot-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    -webkit-text-size-adjust: 100%;
+    background-attachment: fixed;
+}
+
+div#divmain{
+    flex-direction:row;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+div#divmain >h1{
+    font-size: 3rem;
+    font-family: "Montserrat", Sans-serif;
+    color: rgb(233, 230, 227);
+    margin-bottom: 1rem;
+}
+
+div#divmain >h3{
+    color: white;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 19px;
+    margin-bottom: 1rem;;
+}
+
+div#divquer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    max-height: 12rem;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+div#divquer:hover{
+    background-color: #a97a34;
+    transition: 1s;
+}
+
+div#divquer >a{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: inherit;
+    color: #001426;;
+}
+
+section#boxesmain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 100%;
+    height: 20.6rem;
+    background-color: #000b13;
+}
+
+div.divboxes1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 16remx;
+    margin-top: 2rem;
+    margin-bottom: 2.6rem;
+    background-color: white;
+    border-radius: 0.7rem;
+    font-size: 20px;
+}
+
+svg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+    margin-bottom: 2rem;;
+}
+
+div.divboxes2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 16rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+svg.svg2{
+    display: block;
+    flex-direction: column;
+    width: 100px;
+    margin-bottom: rem;;
+}
+
+div.divboxes3 >p{
+    margin-left: 10px;
+}
+
+div.divboxes3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 16rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+div.divboxes3 >p{
+    margin-left: 20px;
+}
+
+div.divboxes4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 16rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+div.divboxes4 >p{
+    margin-left: 20px;
+}
+
+div >a >image#iconwttps{
+    display: inline-block;
+    position: fixed;
+    outline: none;
+    bottom: 10px;
+    right: 10px;
+    width: 56px;
+    height: 56px;
+    animation: pulsar;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
