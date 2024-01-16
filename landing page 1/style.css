@@ -110,6 +110,7 @@ section#boxesmain{
     flex-direction: row;
     justify-content: center;
     gap: 2.5rem;
+    width: 1440px;
     max-width: 100%;
     height: 20.6rem;
     background-color: #000b13;
@@ -120,7 +121,7 @@ div.divboxes1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 15rem;
+    max-width: 15rem;
     height: 16remx;
     margin-top: 2rem;
     margin-bottom: 2.6rem;
@@ -131,7 +132,8 @@ div.divboxes1{
 
 svg{
     display: flex;
-    flex-direction: column;
+    flex-wrap: column;
+    flex-direction: center;
     justify-content: center;
     width: 50px;
     margin-bottom: 2rem;;
@@ -141,10 +143,10 @@ div.divboxes2{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15rem;
+    max-width: 15rem;
     height: 16rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.6  rem;
     background-color: rgb(255, 255, 255);
     font-size: 20px;
 }
@@ -152,7 +154,7 @@ div.divboxes2{
 svg.svg2{
     display: block;
     flex-direction: column;
-    width: 100px;
+    max-width: 100px;
     margin-bottom: rem;;
 }
 
@@ -164,7 +166,7 @@ div.divboxes3{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15rem;
+    max-width: 15rem;
     height: 16rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -180,7 +182,7 @@ div.divboxes4{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15rem;
+    max-width: 15rem;
     height: 16rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -192,20 +194,118 @@ div.divboxes4 >p{
     margin-left: 20px;
 }
 
-div >a >image#iconwttps{
-    display: inline-block;
-    position: fixed;
-    outline: none;
-    bottom: 10px;
-    right: 10px;
-    width: 56px;
-    height: 56px;
-    animation: pulsar;
-    animation-duration: 0.8s;
-    animation-timing-function: ease-out;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-fill-mode: none;
-    animation-play-state: running;
+section#description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div#divimagesdes{
+    max-width: 100%;
+    display: flex;
+    margin-top: -50%;
+    margin-left: 11rem;
+    margin-right: 1.3rem;
+}
+
+div#divimagesdes >figure >img{
+    image-rendering: optimizeQuality;
+    object-fit: cover;
+    width: 50rem;
+    max-width: 100%;
+    height: 350%;
+    border: 3px solid #031d29;
+}
+
+div#divdescription{
+    margin-top: 7rem;
+}
+
+div#divdescription >h2{
+    color: #22374b;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+p.ptitulo{
+    margin-top: 0.6rem;
+    margin-bottom: 1.3rem;
+    color: #001426;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+hr{
+    display: flex;
+    width: 80%;
+    margin-bottom: 1.2rem;
+    background: #22374b;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+}
+
+h3.h3des{
+    color: #22374b;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 0.4rem
+}
+
+p.pdes{
+    margin-bottom: 0.4rem;
+    color: #22374b;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+div#divdes2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #22374b;
+    width: 50%;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+div#divdes2> a{
+    text-decoration: none;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+div#divdes2:hover{
+    background-color: #a97a34;
+    transition: 1s;
+}
+
+div#divdes2:hover >a{
+    color: #001426;
+}
+
+section#secfooter{
+    max-width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #031d29;
+}
+
+img.imgfooter{
+    width: 150px;
+}
+
+div#divimgfot{
+    display: flex;
 }
